@@ -19,15 +19,18 @@ Print the result.
 Execute the program.
 
 ## PROGRAM:
+```
 ##Developed by: S V shadhanashree
 ##Reference number: 23013434
+```
+```
 import sys
 f1=open(sys.argv[0])
 data=f1.read()
 word=data.split()
 print("The word count is",len(word))
 f1.close
-
+```
 
 ### OUTPUT:
 ![Alt text](<Screenshot 2023-12-28 161543.png>)
